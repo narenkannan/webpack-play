@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "rimraf dist && webpack"
+    "webpack": "rimraf dist && tsc && webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "path": "^0.12.7",
     "webpack": "^2.6.0",
     "webpack-dev-server": "^2.4.5"
   }
